@@ -1,0 +1,16 @@
+{% if content_for_header contains 'localhost' %}
+    {% render "pledger-impact-calculator" %}
+  {% endif %}
+  {% schema %}
+    {
+      "name": "Pledger impact calculator",
+      "settings": [],
+      "presets": [
+          {
+            "category": "Promotional",
+            "name": "Pledger impact calculator"
+          }
+        ]
+      }
+    {% endschema %}
+  
