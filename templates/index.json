@@ -39,6 +39,11 @@
         "adapt_height_first_image": false
       }
     },
+    "1628994572ecee3333": {
+      "type": "pledger-impact",
+      "settings": {
+      }
+    },
     "featured_products": {
       "type": "featured-collection",
       "settings": {
@@ -87,17 +92,12 @@
         "color_scheme": "background-1",
         "layout": "image_first"
       }
-    },
-    "1628994572ecee3333": {
-      "type": "pledger-impact",
-      "settings": {
-      }
     }
   },
   "order": [
     "image_banner",
+    "1628994572ecee3333",
     "featured_products",
-    "image_text",
-    "1628994572ecee3333"
+    "image_text"
   ]
 }
