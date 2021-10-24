@@ -56,14 +56,6 @@
     },
     "content_for_index": [
 
-    ],
-    "blocks": {
-      "1629627055c6c74b02": {
-        "type": "shopify:\/\/apps\/pledger-development\/blocks\/post-purchase-embed\/d6441cee-f111-4e54-8c33-1eadf5859e56",
-        "disabled": false,
-        "settings": {
-        }
-      }
-    }
+    ]
   }
 }

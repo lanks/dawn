@@ -92,12 +92,18 @@
         "color_scheme": "background-1",
         "layout": "image_first"
       }
+    },
+    "1635050126fd9a90df": {
+      "type": "pledger-impact",
+      "settings": {
+      }
     }
   },
   "order": [
     "image_banner",
     "1628994572ecee3333",
     "featured_products",
-    "image_text"
+    "image_text",
+    "1635050126fd9a90df"
   ]
 }
