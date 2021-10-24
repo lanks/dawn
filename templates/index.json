@@ -97,6 +97,11 @@
       "type": "pledger-impact",
       "settings": {
       }
+    },
+    "1635050196a4e31f37": {
+      "type": "pledger-impact",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -104,6 +109,7 @@
     "1628994572ecee3333",
     "featured_products",
     "image_text",
-    "1635050126fd9a90df"
+    "1635050126fd9a90df",
+    "1635050196a4e31f37"
   ]
 }
