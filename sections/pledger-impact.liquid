@@ -1,16 +1,14 @@
-{% if content_for_header contains 'https://pledger.loca.lt' %}
-    {% render "pledger-impact-calculator" %}
-  {% endif %}
-  {% schema %}
-    {
-      "name": "Pledger impact calculator",
-      "settings": [],
-      "presets": [
-          {
-            "category": "Promotional",
-            "name": "Pledger impact calculator"
-          }
-        ]
-      }
-    {% endschema %}
+{% render "pledger-impact-calculator" %}
+{% schema %}
+{
+"name": "Pledger impact calculator",
+"settings": [],
+"presets": [
+{
+"category": "Promotional",
+"name": "Pledger impact calculator"
+}
+]
+}
+{% endschema %}
   
