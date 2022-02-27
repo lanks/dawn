@@ -54,6 +54,11 @@
         "show_vendor": false
       }
     },
+    "16459539610726509c": {
+      "type": "pledger-impact",
+      "settings": {
+      }
+    },
     "image_text": {
       "type": "image-with-text",
       "blocks": {
@@ -92,6 +97,7 @@
   "order": [
     "image_banner",
     "featured_products",
+    "16459539610726509c",
     "image_text"
   ]
 }
