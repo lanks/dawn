@@ -1,10 +1,5 @@
 {
   "sections": {
-    "1651515791003fdda5": {
-      "type": "pledger-cart-total-banner",
-      "settings": {
-      }
-    },
     "cart-items": {
       "type": "main-cart-items",
       "settings": {
@@ -50,7 +45,6 @@
     }
   },
   "order": [
-    "1651515791003fdda5",
     "cart-items",
     "cart-footer",
     "featured-products"
