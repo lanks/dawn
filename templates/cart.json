@@ -1,6 +1,6 @@
 {
   "sections": {
-    "165151836629c2e1e9": {
+    "1651521619b2077143": {
       "type": "pledger-cart-total-banner",
       "settings": {
         "text_color": "#445958",
@@ -52,7 +52,7 @@
     }
   },
   "order": [
-    "165151836629c2e1e9",
+    "1651521619b2077143",
     "cart-items",
     "cart-footer",
     "featured-products"
