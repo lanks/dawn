@@ -9,12 +9,6 @@
       align-content:space-between;
       gap:1%;
     }
-	.text-col {
-    	display:flex;
-      flex-grow: 1;
-      flex-basis: 0;
-      padding: 20px;
-    }
     .grid-col {
       background-color: {{section.settings.background_color}};
       display: flex;
@@ -40,8 +34,10 @@
 	<div>
       <strong>Shop and Give</strong>
       <div class="grid-wrapper">
-        <div class="text-col">
-          When you spend <b>£200</b> or more we will give you <b>£20</b> to donate to a cause with impact.
+        <div class="grid-col">
+          <p>
+	          When you spend <b>£200</b> or more we will give you <b>£20</b> to donate to a cause with impact.
+          </p>
         </div>
         {%- for cause in shop.metafields.pledger.causes -%}
           <div class="grid-col">
