@@ -2,7 +2,7 @@
     <style>
     .grid-wrapper {
       display: flex;
-      flex-direction:row;
+      flex-direction:column;
       margin: 1em;
       background-color: white;
       flex-wrap: nowrap;
@@ -10,6 +10,10 @@
       gap:1%;
       background-color: {{section.settings.background_color}};
       border-radius: 5px;
+    }
+    .grid-columns {
+       display: flex;
+      flex-direction:row;
     }
 	.text-col {
     	display:flex;
@@ -43,16 +47,18 @@
       
       <div class="grid-wrapper">
         <strong>Shop and Give</strong>
-        <div class="text-col">
-          <p>
-	          When you spend <b>£200</b> or more we will give you <b>£20</b> to donate to a cause with impact.
-          </p>
-        </div>
-        {%- for cause in shop.metafields.pledger.causes -%}
-          <div class="grid-col">
-            <img src="{{cause.image_url}}" />
-            <p>{{ cause.name }}</p>
+        <div class="grid-columns">
+          <div class="text-col">
+            <p>
+                When you spend <b>£200</b> or more we will give you <b>£20</b> to donate to a cause with impact.
+            </p>
           </div>
-        {%- endfor -%}
+          {%- for cause in shop.metafields.pledger.causes -%}
+            <div class="grid-col">
+              <img src="{{cause.image_url}}" />
+              <p>{{ cause.name }}</p>
+            </div>
+          {%- endfor -%}
+        </div>  
       </div>
 	</div>
