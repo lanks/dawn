@@ -3,6 +3,8 @@
     "165151836629c2e1e9": {
       "type": "pledger-cart-total-banner",
       "settings": {
+        "text_color": "#445958",
+        "background_color": "#FAF1E9"
       }
     },
     "cart-items": {
