@@ -11,7 +11,7 @@
 
     .grid-col {
       background-color: #5C6AC4;
-      display: grid;
+      display: inline-grid;
       justify-content: center;
       padding: 20px;
       font-size: 70px;
@@ -24,7 +24,7 @@
       {%- for cause in shop.metafields.pledger.causes -%}
         <div class="grid-col">
           <img src="{{cause.image_url}}" />
-          {{ cause.name }}
+          <p>{{ cause.name }}</p>
         </div>
       {%- endfor -%}
     </div>
