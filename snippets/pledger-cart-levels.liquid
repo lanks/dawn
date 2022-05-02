@@ -1,29 +1,25 @@
 
     <style>
     .grid-wrapper {
-      display: flex;
-      flex-direction:row;
+      display: grid;
       grid-template-columns: 1fr 1fr;
       grid-column-gap: 1px;
       grid-row-gap: 1px;
       margin: 1em;
       background-color: white;
-      max-width:100%;
-      flex-wrap: nowrap;
-      align-content:space-between;
+      gap: 10%;
     }
 
     .grid-col {
       background-color: #5C6AC4;
-      display: flex;
-      flex-direction:row;
+      display: grid;
       justify-content: center;
-      padding: 10px;
+      padding: 20px;
+      font-size: 70px;
       color: white;
       line-height: 1;
       border-radius: 5px;
-      flex-grow: 1;
-	    flex-basis: 0;
+      
     }
     .grid-col img, .grid-col p {
       display:inline-block;
@@ -33,7 +29,7 @@
       {%- for cause in shop.metafields.pledger.causes -%}
         <div class="grid-col">
           <img src="{{cause.image_url}}" />
-          <p>{{ cause.name }}</p>
+          {{ cause.name }}
         </div>
       {%- endfor -%}
     </div>
