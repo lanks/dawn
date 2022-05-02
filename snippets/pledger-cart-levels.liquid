@@ -1,0 +1,31 @@
+
+    <style>
+    .grid-wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 1px;
+      grid-row-gap: 1px;
+      margin: 1em;
+      background-color: white;
+    }
+
+    .grid-col {
+      background-color: #5C6AC4;
+      display: grid;
+      justify-content: center;
+      padding: 20px;
+      font-size: 70px;
+      color: white;
+      line-height: 1;
+      border-radius: 5px;
+    }
+    </style>
+    <div class="grid-wrapper">
+      {% for cause in shop.metafields.pledger.causes.value %}
+        <div class="grid-col">
+          <img src="cause.image_url" />
+          {{ cause.name }}
+        </div>
+      {% endfor %}
+    </div>
+    
