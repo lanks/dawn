@@ -22,7 +22,7 @@
     </style>
     <div class="grid-wrapper">
       {{ shop.metafields.pledger.test }}
-      {%- for cause in shop.metafields.pledger.causes.value -%}
+      {%- for cause in shop.metafields.pledger.causes -%}
         <div class="grid-col">
           <img src="{{cause.image_url}}" />
           {{ cause.name }}
