@@ -1,5 +1,10 @@
 {
   "sections": {
+    "165151836629c2e1e9": {
+      "type": "pledger-cart-total-banner",
+      "settings": {
+      }
+    },
     "cart-items": {
       "type": "main-cart-items",
       "settings": {
@@ -45,6 +50,7 @@
     }
   },
   "order": [
+    "165151836629c2e1e9",
     "cart-items",
     "cart-footer",
     "featured-products"
