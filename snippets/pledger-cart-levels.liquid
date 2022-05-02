@@ -21,11 +21,11 @@
     }
     </style>
     <div class="grid-wrapper">
-      {% for cause in shop.metafields.pledger.causes.value %}
+      {%- for cause in shop.metafields.pledger.causes.value -%}
         <div class="grid-col">
           <img src="{{cause.image_url}}" />
           {{ cause.name }}
         </div>
-      {% endfor %}
+      {%- endfor -%}
     </div>
     
