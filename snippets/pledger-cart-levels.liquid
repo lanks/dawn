@@ -1,22 +1,24 @@
 
     <style>
     .grid-wrapper {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
+      display: flex;
+      flex-direction:row;
       margin: 1em;
       background-color: white;
-      gap: 1%;
+      flex-wrap: nowrap;
+      align-content:space-between;
+      gap:1%;
     }
 
     .grid-col {
       background-color: #5C6AC4;
-      display: grid;
+      display: flex;
       justify-content: center;
+      flex-direction:row;
       padding: 20px;
       color: white;
       line-height: 1;
       border-radius: 5px;
-      
     }
     .grid-col img, .grid-col p {
       display:inline-block;
@@ -26,7 +28,7 @@
       {%- for cause in shop.metafields.pledger.causes -%}
         <div class="grid-col">
           <img src="{{cause.image_url}}" />
-          {{ cause.name }}
+          <p>{{ cause.name }}</p>
         </div>
       {%- endfor -%}
     </div>
