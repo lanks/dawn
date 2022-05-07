@@ -53,6 +53,14 @@
           "type": "share",
           "settings": {
           }
+        },
+        "31ef130b-432e-409c-8510-526b730647e7": {
+          "type": "shopify:\/\/apps\/pledger-post-p-development\/blocks\/cart-donations\/cffd5874-d3d3-4961-9f67-67c84e13640b",
+          "settings": {
+            "text_color": "#000000",
+            "background_color": "#ffffff",
+            "banner_size": "small"
+          }
         }
       },
       "block_order": [
@@ -64,7 +72,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "31ef130b-432e-409c-8510-526b730647e7"
       ],
       "settings": {
         "enable_sticky_info": true,
