@@ -44,14 +44,6 @@
             "show_dynamic_checkout": true
           }
         },
-        "6aa4a08b-82c7-4900-839e-fc953c70f7b3": {
-          "type": "shopify:\/\/apps\/pledger-post-p-development\/blocks\/cart-donations\/cffd5874-d3d3-4961-9f67-67c84e13640b",
-          "settings": {
-            "text_color": "#000000",
-            "background_color": "#ffffff",
-            "banner_size": "small"
-          }
-        },
         "description": {
           "type": "description",
           "settings": {
@@ -71,7 +63,6 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "6aa4a08b-82c7-4900-839e-fc953c70f7b3",
         "description",
         "share"
       ],
