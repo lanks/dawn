@@ -16,7 +16,7 @@
         "a2dfecba-5fe6-4a97-b0a9-4381ff9016a8"
       ],
       "settings": {
-        "include_margins": false
+        "include_margins": true
       }
     },
     "cart-items": {
