@@ -1,11 +1,5 @@
 {
   "sections": {
-    "16519298407510e494": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
-    },
     "cart-items": {
       "type": "main-cart-items",
       "settings": {
@@ -51,7 +45,6 @@
     }
   },
   "order": [
-    "16519298407510e494",
     "cart-items",
     "cart-footer",
     "featured-products"
