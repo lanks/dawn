@@ -18,11 +18,20 @@
           "type": "buttons",
           "settings": {
           }
+        },
+        "9f5f76db-afce-4fd3-add4-9f2d631e1d5a": {
+          "type": "shopify:\/\/apps\/pledger-post-p-development\/blocks\/cart-donations\/cffd5874-d3d3-4961-9f67-67c84e13640b",
+          "settings": {
+            "text_color": "#BC3F3F",
+            "background_color": "#FFFFFF",
+            "banner_size": "small"
+          }
         }
       },
       "block_order": [
         "subtotal",
-        "buttons"
+        "buttons",
+        "9f5f76db-afce-4fd3-add4-9f2d631e1d5a"
       ],
       "settings": {
         "show_cart_note": false
