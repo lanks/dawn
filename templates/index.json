@@ -54,11 +54,6 @@
         "show_vendor": false
       }
     },
-    "16459539610726509c": {
-      "type": "pledger-impact",
-      "settings": {
-      }
-    },
     "image_text": {
       "type": "image-with-text",
       "blocks": {
@@ -93,31 +88,50 @@
         "layout": "image_first"
       }
     },
-    "4840cdc4-747c-4cd7-8309-0a621cd6a0b3": {
+    "1653218671fb54e3e9": {
       "type": "apps",
       "blocks": {
-        "7948f091-855e-4a5d-906c-d13ada00f545": {
-          "type": "shopify:\/\/apps\/pledger-post-p-development\/blocks\/cart-donations\/cffd5874-d3d3-4961-9f67-67c84e13640b",
+        "cdd64499-7279-4ffb-871b-5171b36bfe62": {
+          "type": "shopify:\/\/apps\/pledger-uk-giving-app\/blocks\/cart-donations\/79182888-a717-4890-a7d5-e2f1b496a399",
           "settings": {
-            "text_color": "#BC3F3F",
-            "background_color": "#FFFFFF",
-            "banner_size": "large"
+            "text_color": "#000000",
+            "background_color": "#ffffff",
+            "banner_size": "small"
           }
         }
       },
       "block_order": [
-        "7948f091-855e-4a5d-906c-d13ada00f545"
+        "cdd64499-7279-4ffb-871b-5171b36bfe62"
       ],
       "settings": {
-        "include_margins": false
+        "include_margins": true
+      }
+    },
+    "1653218684833fc5a7": {
+      "type": "apps",
+      "blocks": {
+        "492a2847-6467-4e0a-b4db-783bca20f8d6": {
+          "type": "shopify:\/\/apps\/pledger-uk-giving-app\/blocks\/impact-calculator\/79182888-a717-4890-a7d5-e2f1b496a399",
+          "settings": {
+            "impact_text_color": "#000000",
+            "impact_background_color": "#ffffff",
+            "impact_banner_size": "small"
+          }
+        }
+      },
+      "block_order": [
+        "492a2847-6467-4e0a-b4db-783bca20f8d6"
+      ],
+      "settings": {
+        "include_margins": true
       }
     }
   },
   "order": [
-    "4840cdc4-747c-4cd7-8309-0a621cd6a0b3",
     "image_banner",
     "featured_products",
-    "16459539610726509c",
-    "image_text"
+    "image_text",
+    "1653218671fb54e3e9",
+    "1653218684833fc5a7"
   ]
 }
