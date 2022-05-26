@@ -144,9 +144,29 @@
       "settings": {
         "include_margins": false
       }
+    },
+    "8ced031a-321b-435c-9e86-1c931ef0b67b": {
+      "type": "apps",
+      "blocks": {
+        "171feef7-db7d-4c07-895b-b5210f940110": {
+          "type": "shopify:\/\/apps\/pledger-post-p-development\/blocks\/cart-donations\/cffd5874-d3d3-4961-9f67-67c84e13640b",
+          "settings": {
+            "text_color": "#BC3F3F",
+            "background_color": "#FFFFFF",
+            "banner_size": "large"
+          }
+        }
+      },
+      "block_order": [
+        "171feef7-db7d-4c07-895b-b5210f940110"
+      ],
+      "settings": {
+        "include_margins": false
+      }
     }
   },
   "order": [
+    "8ced031a-321b-435c-9e86-1c931ef0b67b",
     "4840cdc4-747c-4cd7-8309-0a621cd6a0b3",
     "image_banner",
     "featured_products",
