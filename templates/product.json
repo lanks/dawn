@@ -44,6 +44,14 @@
             "show_dynamic_checkout": true
           }
         },
+        "e45bf2b5-c5ef-4fd0-be8b-7895987883b6": {
+          "type": "shopify:\/\/apps\/pledger-post-p-development\/blocks\/cart-donations\/cffd5874-d3d3-4961-9f67-67c84e13640b",
+          "settings": {
+            "text_color": "#bc3f3f",
+            "background_color": "#FAF1E9",
+            "banner_size": "small"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -52,14 +60,6 @@
         "share": {
           "type": "share",
           "settings": {
-          }
-        },
-        "e45bf2b5-c5ef-4fd0-be8b-7895987883b6": {
-          "type": "shopify:\/\/apps\/pledger-post-p-development\/blocks\/cart-donations\/cffd5874-d3d3-4961-9f67-67c84e13640b",
-          "settings": {
-            "text_color": "#BC3F3F",
-            "background_color": "#FFFFFF",
-            "banner_size": "small"
           }
         }
       },
