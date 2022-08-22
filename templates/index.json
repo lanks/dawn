@@ -3,23 +3,17 @@
     "8ced031a-321b-435c-9e86-1c931ef0b67b": {
       "type": "apps",
       "blocks": {
-        "171feef7-db7d-4c07-895b-b5210f940110": {
-          "type": "shopify:\/\/apps\/pledger-post-p-development\/blocks\/cart-donations\/cffd5874-d3d3-4961-9f67-67c84e13640b",
+        "d9076d47-689f-48e4-827d-8bdd92a58e72": {
+          "type": "shopify:\/\/apps\/pledger-post-p-development\/blocks\/impact-calculator\/cffd5874-d3d3-4961-9f67-67c84e13640b",
           "settings": {
-            "virtue_theme": "custom",
-            "text_color": "#d13737",
-            "background_color": "#ffffff",
-            "accent_color": "#ffffff",
-            "banner_size": "large",
-            "border": "on",
-            "border_radius": 10,
-            "drop_shadow": 10,
-            "row_padding": 0
+            "impact_text_color": "#000000",
+            "impact_background_color": "#ffffff",
+            "impact_banner_size": "small"
           }
         }
       },
       "block_order": [
-        "171feef7-db7d-4c07-895b-b5210f940110"
+        "d9076d47-689f-48e4-827d-8bdd92a58e72"
       ],
       "settings": {
         "include_margins": false
