@@ -112,12 +112,19 @@
         "color_scheme": "background-1",
         "layout": "image_first"
       }
+    },
+    "166259660429bba999": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div id='pledger-impact' data-widget-id='impact_calculator'><\/div>"
+      }
     }
   },
   "order": [
     "166113875414cd1055",
     "image_banner",
     "featured_products",
-    "image_text"
+    "image_text",
+    "166259660429bba999"
   ]
 }
