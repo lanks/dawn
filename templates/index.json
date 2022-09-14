@@ -1,26 +1,13 @@
 {
   "sections": {
+    "1663122340baeba05f": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div id='pledger-impact' data-widget-id='impact_calculator'><\/div>"
+      }
+    },
     "166113875414cd1055": {
       "type": "apps",
-      "blocks": {
-        "76546bc7-94d6-4b47-acb8-fc0aacfb9f3d": {
-          "type": "shopify:\/\/apps\/pledger-post-p-development\/blocks\/impact-calculator\/cffd5874-d3d3-4961-9f67-67c84e13640b",
-          "settings": {
-            "virtue_theme": "virtue",
-            "impact_text_color": "#000000",
-            "impact_background_color": "#ffffff",
-            "impact_accent_color": "#ffffff",
-            "impact_banner_size": "small",
-            "impact_border": "on",
-            "impact_border_radius": 10,
-            "impact_drop_shadow": 10,
-            "impact_row_padding": 0
-          }
-        }
-      },
-      "block_order": [
-        "76546bc7-94d6-4b47-acb8-fc0aacfb9f3d"
-      ],
       "settings": {
         "include_margins": true
       }
@@ -115,6 +102,7 @@
     }
   },
   "order": [
+    "1663122340baeba05f",
     "166113875414cd1055",
     "image_banner",
     "featured_products",
