@@ -30,7 +30,7 @@
         "0c44f448-e74a-4145-ae68-a61604f85d16": {
           "type": "shopify:\/\/apps\/pledger-post-p-development\/blocks\/cart-donations\/cffd5874-d3d3-4961-9f67-67c84e13640b",
           "settings": {
-            "virtue_theme": "custom",
+            "virtue_theme": "virtue",
             "text_color": "#000000",
             "background_color": "#ffffff",
             "accent_color": "#ffffff",
