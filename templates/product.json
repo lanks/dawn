@@ -44,6 +44,20 @@
             "show_dynamic_checkout": true
           }
         },
+        "64caa907-ff77-4443-8108-9c6eed4537c5": {
+          "type": "shopify:\/\/apps\/pledger-post-p-development\/blocks\/cart-donations\/cffd5874-d3d3-4961-9f67-67c84e13640b",
+          "settings": {
+            "virtue_theme": "custom",
+            "text_color": "#1D1D1D",
+            "background_color": "#ffffff",
+            "accent_color": "#3A21CE",
+            "banner_size": "small",
+            "border": "on",
+            "border_radius": 10,
+            "drop_shadow": 10,
+            "row_padding": 0
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -58,9 +72,9 @@
           "type": "shopify:\/\/apps\/pledger-post-p-development\/blocks\/impact-calculator\/cffd5874-d3d3-4961-9f67-67c84e13640b",
           "settings": {
             "virtue_theme": "custom",
-            "impact_text_color": "#1D1D1D",
+            "impact_text_color": "#1d1d1d",
             "impact_background_color": "#ffffff",
-            "impact_accent_color": "#3A21CE",
+            "impact_accent_color": "#3a21ce",
             "impact_banner_size": "small",
             "impact_border": "on",
             "impact_border_radius": 10,
@@ -77,6 +91,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "64caa907-ff77-4443-8108-9c6eed4537c5",
         "description",
         "share",
         "a41b2b3c-8148-49bd-b55f-cf7e8adabb50"
