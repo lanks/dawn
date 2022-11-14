@@ -1,5 +1,31 @@
 {
   "sections": {
+    "e98cb12b-7bf2-4dcd-9a55-4c4e3f32913f": {
+      "type": "apps",
+      "disabled": true,
+      "blocks": {
+        "fc4a4e16-2faf-4c6b-9033-631ccc1b35a9": {
+          "type": "shopify:\/\/apps\/pledger-post-p-development\/blocks\/cart-donations\/cffd5874-d3d3-4961-9f67-67c84e13640b",
+          "settings": {
+            "virtue_theme": "custom",
+            "text_color": "#bc3f3f",
+            "background_color": "#ffffff",
+            "accent_color": "#3A21CE",
+            "banner_size": "large",
+            "border": "on",
+            "border_radius": 10,
+            "drop_shadow": 10,
+            "row_padding": 0
+          }
+        }
+      },
+      "block_order": [
+        "fc4a4e16-2faf-4c6b-9033-631ccc1b35a9"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
     "cart-items": {
       "type": "main-cart-items",
       "settings": {
@@ -18,20 +44,11 @@
           "type": "buttons",
           "settings": {
           }
-        },
-        "9f5f76db-afce-4fd3-add4-9f2d631e1d5a": {
-          "type": "shopify:\/\/apps\/pledger-post-p-development\/blocks\/cart-donations\/cffd5874-d3d3-4961-9f67-67c84e13640b",
-          "settings": {
-            "text_color": "#BC3F3F",
-            "background_color": "#FFFFFF",
-            "banner_size": "small"
-          }
         }
       },
       "block_order": [
         "subtotal",
-        "buttons",
-        "9f5f76db-afce-4fd3-add4-9f2d631e1d5a"
+        "buttons"
       ],
       "settings": {
         "show_cart_note": false
@@ -50,25 +67,6 @@
         "add_image_padding": false,
         "show_image_outline": true,
         "show_vendor": false
-      }
-    },
-    "e98cb12b-7bf2-4dcd-9a55-4c4e3f32913f": {
-      "type": "apps",
-      "blocks": {
-        "fc4a4e16-2faf-4c6b-9033-631ccc1b35a9": {
-          "type": "shopify:\/\/apps\/pledger-post-p-development\/blocks\/cart-donations\/cffd5874-d3d3-4961-9f67-67c84e13640b",
-          "settings": {
-            "text_color": "#BC3F3F",
-            "background_color": "#FFFFFF",
-            "banner_size": "large"
-          }
-        }
-      },
-      "block_order": [
-        "fc4a4e16-2faf-4c6b-9033-631ccc1b35a9"
-      ],
-      "settings": {
-        "include_margins": false
       }
     }
   },
