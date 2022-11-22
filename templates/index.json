@@ -7,11 +7,6 @@
         "custom_liquid": "<div id='pledger-impact' data-widget-id='impact_calculator'><\/div>"
       }
     },
-    "28f5f3de-9fa5-4252-ab46-db87166432e4": {
-      "type": "pledger-impact",
-      "settings": {
-      }
-    },
     "166113875414cd1055": {
       "type": "apps",
       "blocks": {
@@ -128,7 +123,6 @@
   },
   "order": [
     "1663122340baeba05f",
-    "28f5f3de-9fa5-4252-ab46-db87166432e4",
     "166113875414cd1055",
     "image_banner",
     "featured_products",
