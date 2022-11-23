@@ -46,6 +46,7 @@
         },
         "64caa907-ff77-4443-8108-9c6eed4537c5": {
           "type": "shopify:\/\/apps\/pledger-post-p-development\/blocks\/cart-donations\/cffd5874-d3d3-4961-9f67-67c84e13640b",
+          "disabled": true,
           "settings": {
             "virtue_theme": "custom",
             "text_color": "#1d1d1d",
@@ -82,21 +83,6 @@
             "impact_drop_shadow": 10,
             "impact_row_padding": 0
           }
-        },
-        "e183f8f0-81b2-428e-90b1-28b916e70124": {
-          "type": "shopify:\/\/apps\/pledger-post-p-development\/blocks\/customer-donations\/cffd5874-d3d3-4961-9f67-67c84e13640b",
-          "settings": {
-            "virtue_theme": "custom",
-            "text_color": "#1D1D1D",
-            "background_color": "#ffffff",
-            "accent_color": "#3A21CE",
-            "banner_size": "small",
-            "border": "on",
-            "border_radius": 10,
-            "drop_shadow": 10,
-            "row_padding": 0,
-            "tagline": "Give to a cause"
-          }
         }
       },
       "block_order": [
@@ -110,8 +96,7 @@
         "64caa907-ff77-4443-8108-9c6eed4537c5",
         "description",
         "share",
-        "a41b2b3c-8148-49bd-b55f-cf7e8adabb50",
-        "e183f8f0-81b2-428e-90b1-28b916e70124"
+        "a41b2b3c-8148-49bd-b55f-cf7e8adabb50"
       ],
       "settings": {
         "enable_sticky_info": true,
