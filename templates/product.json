@@ -75,20 +75,6 @@
             "row_padding": 0
           }
         },
-        "64caa907-ff77-4443-8108-9c6eed4537c5": {
-          "type": "shopify:\/\/apps\/pledger-post-p-development\/blocks\/cart-donations\/cffd5874-d3d3-4961-9f67-67c84e13640b",
-          "settings": {
-            "virtue_theme": "custom",
-            "text_color": "#1d1d1d",
-            "background_color": "#ffffff",
-            "accent_color": "#3a21ce",
-            "banner_size": "small",
-            "border": "on",
-            "border_radius": 10,
-            "drop_shadow": 10,
-            "row_padding": 0
-          }
-        },
         "description": {
           "type": "description",
           "settings": {
@@ -113,6 +99,21 @@
             "impact_drop_shadow": 10,
             "impact_row_padding": 0
           }
+        },
+        "64caa907-ff77-4443-8108-9c6eed4537c5": {
+          "type": "shopify:\/\/apps\/pledger-post-p-development\/blocks\/cart-donations\/cffd5874-d3d3-4961-9f67-67c84e13640b",
+          "disabled": true,
+          "settings": {
+            "virtue_theme": "custom",
+            "text_color": "#1d1d1d",
+            "background_color": "#ffffff",
+            "accent_color": "#3a21ce",
+            "banner_size": "small",
+            "border": "on",
+            "border_radius": 10,
+            "drop_shadow": 10,
+            "row_padding": 0
+          }
         }
       },
       "block_order": [
@@ -125,10 +126,10 @@
         "cd9a7a89-8d89-41ab-a20b-bcc0af32cd7d",
         "buy_buttons",
         "130c622e-6966-463d-96af-5571e208c2b3",
-        "64caa907-ff77-4443-8108-9c6eed4537c5",
         "description",
         "share",
-        "a41b2b3c-8148-49bd-b55f-cf7e8adabb50"
+        "a41b2b3c-8148-49bd-b55f-cf7e8adabb50",
+        "64caa907-ff77-4443-8108-9c6eed4537c5"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -145,10 +146,36 @@
         "show_image_outline": true,
         "show_vendor": false
       }
+    },
+    "16744500282e229110": {
+      "type": "apps",
+      "blocks": {
+        "14599072-17ff-4f64-abd2-4942527258e0": {
+          "type": "shopify:\/\/apps\/pledger-post-p-development\/blocks\/cart-donations\/cffd5874-d3d3-4961-9f67-67c84e13640b",
+          "settings": {
+            "virtue_theme": "custom",
+            "text_color": "#1D1D1D",
+            "background_color": "#ffffff",
+            "accent_color": "#3A21CE",
+            "banner_size": "small",
+            "border": "on",
+            "border_radius": 10,
+            "drop_shadow": 10,
+            "row_padding": 0
+          }
+        }
+      },
+      "block_order": [
+        "14599072-17ff-4f64-abd2-4942527258e0"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
-    "product-recommendations"
+    "product-recommendations",
+    "16744500282e229110"
   ]
 }
