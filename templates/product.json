@@ -162,36 +162,10 @@
         "show_image_outline": true,
         "show_vendor": false
       }
-    },
-    "16744500282e229110": {
-      "type": "apps",
-      "blocks": {
-        "14599072-17ff-4f64-abd2-4942527258e0": {
-          "type": "shopify:\/\/apps\/pledger-post-p-development\/blocks\/cart-donations\/cffd5874-d3d3-4961-9f67-67c84e13640b",
-          "settings": {
-            "virtue_theme": "custom",
-            "text_color": "#1d1d1d",
-            "background_color": "#ffffff",
-            "accent_color": "#3a21ce",
-            "banner_size": "small",
-            "border": "on",
-            "border_radius": 10,
-            "drop_shadow": 10,
-            "row_padding": 0
-          }
-        }
-      },
-      "block_order": [
-        "14599072-17ff-4f64-abd2-4942527258e0"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
     "main",
-    "product-recommendations",
-    "16744500282e229110"
+    "product-recommendations"
   ]
 }
