@@ -63,6 +63,7 @@
         },
         "f0b2026d-8437-4f97-bb51-ea246875dbcd": {
           "type": "shopify:\/\/apps\/virtue-uk-giving-app\/blocks\/customer-donations\/79182888-a717-4890-a7d5-e2f1b496a399",
+          "disabled": true,
           "settings": {
             "virtue_theme": "custom",
             "text_color": "#1d1d1d",
