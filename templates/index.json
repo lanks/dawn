@@ -44,9 +44,9 @@
           "type": "shopify:\/\/apps\/pledger-post-p-development\/blocks\/customer-donations\/cffd5874-d3d3-4961-9f67-67c84e13640b",
           "settings": {
             "virtue_theme": "custom",
-            "text_color": "#1D1D1D",
+            "text_color": "#1d1d1d",
             "background_color": "#ffffff",
-            "accent_color": "#3A21CE",
+            "accent_color": "#3a21ce",
             "banner_size": "small",
             "border": "on",
             "border_radius": 10,
@@ -152,6 +152,12 @@
         "color_scheme": "background-1",
         "layout": "image_first"
       }
+    },
+    "d3ad3406-4eeb-4e2d-a33a-a58f275036db": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div id='pledger-impact' data-widget-id='impact_calculator'><\/div>"
+      }
     }
   },
   "order": [
@@ -159,6 +165,7 @@
     "166113875414cd1055",
     "image_banner",
     "featured_products",
-    "image_text"
+    "image_text",
+    "d3ad3406-4eeb-4e2d-a33a-a58f275036db"
   ]
 }
