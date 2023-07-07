@@ -10,20 +10,6 @@
     "166113875414cd1055": {
       "type": "apps",
       "blocks": {
-        "4bff2870-2528-4849-b3ff-07a4ca33984d": {
-          "type": "shopify:\/\/apps\/pledger-post-p-development\/blocks\/impact-calculator\/cffd5874-d3d3-4961-9f67-67c84e13640b",
-          "settings": {
-            "virtue_theme": "custom",
-            "impact_text_color": "#1d1d1d",
-            "impact_background_color": "#ffffff",
-            "impact_accent_color": "#dd1d1d",
-            "impact_banner_size": "small",
-            "impact_border": "on",
-            "impact_border_radius": 10,
-            "impact_drop_shadow": 10,
-            "impact_row_padding": 0
-          }
-        },
         "45dc02fd-6021-4db1-9ed3-0b66bbda586e": {
           "type": "shopify:\/\/apps\/virtue-uk-giving-app\/blocks\/customer-donations\/79182888-a717-4890-a7d5-e2f1b496a399",
           "disabled": true,
@@ -55,12 +41,26 @@
             "row_padding": 0,
             "tagline": ""
           }
+        },
+        "93ee3853-d0f1-425a-b073-a7fc2cdec21b": {
+          "type": "shopify:\/\/apps\/pledger-post-p-development\/blocks\/impact-calculator\/cffd5874-d3d3-4961-9f67-67c84e13640b",
+          "settings": {
+            "virtue_theme": "custom",
+            "font_color": "#1D1D1D",
+            "background_color": "#ffffff",
+            "accent_color": "#dd1d1d",
+            "banner_size": "small",
+            "border": "on",
+            "border_radius": 10,
+            "drop_shadow": 10,
+            "row_padding": 0
+          }
         }
       },
       "block_order": [
-        "4bff2870-2528-4849-b3ff-07a4ca33984d",
         "45dc02fd-6021-4db1-9ed3-0b66bbda586e",
-        "bb7cc7a1-d598-49e0-95eb-6fddaab971e3"
+        "bb7cc7a1-d598-49e0-95eb-6fddaab971e3",
+        "93ee3853-d0f1-425a-b073-a7fc2cdec21b"
       ],
       "settings": {
         "include_margins": true
