@@ -62,7 +62,6 @@
         },
         "cc3734ce-7e3d-4125-8203-548f5165152e": {
           "type": "shopify:\/\/apps\/pledger-post-p-development\/blocks\/cart-donations\/cffd5874-d3d3-4961-9f67-67c84e13640b",
-          "disabled": true,
           "settings": {
             "virtue_theme": "custom",
             "text_color": "#1d1d1d",
@@ -105,9 +104,9 @@
           "disabled": true,
           "settings": {
             "virtue_theme": "custom",
-            "font_color": "#1D1D1D",
+            "font_color": "#1d1d1d",
             "background_color": "#ffffff",
-            "accent_color": "#3A21CE",
+            "accent_color": "#3a21ce",
             "banner_size": "small",
             "border": "on",
             "border_radius": 10,
