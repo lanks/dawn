@@ -2,26 +2,6 @@
   "sections": {
     "e98cb12b-7bf2-4dcd-9a55-4c4e3f32913f": {
       "type": "apps",
-      "blocks": {
-        "fc4a4e16-2faf-4c6b-9033-631ccc1b35a9": {
-          "type": "shopify:\/\/apps\/pledger-post-p-development\/blocks\/cart-donations\/cffd5874-d3d3-4961-9f67-67c84e13640b",
-          "settings": {
-            "virtue_theme": "custom",
-            "text_color": "#bc3f3f",
-            "background_color": "#ffffff",
-            "accent_color": "#3a21ce",
-            "banner_size": "large",
-            "border": "on",
-            "border_radius": 10,
-            "drop_shadow": 10,
-            "row_padding": 0,
-            "tagline": ""
-          }
-        }
-      },
-      "block_order": [
-        "fc4a4e16-2faf-4c6b-9033-631ccc1b35a9"
-      ],
       "disabled": true,
       "settings": {
         "include_margins": false
@@ -46,40 +26,8 @@
           "settings": {
           }
         },
-        "edeab698-bd10-46d3-8504-36c0e81272dc": {
-          "type": "shopify:\/\/apps\/pledger-post-p-development\/blocks\/customer-donations\/cffd5874-d3d3-4961-9f67-67c84e13640b",
-          "disabled": true,
-          "settings": {
-            "virtue_theme": "custom",
-            "text_color": "#1d1d1d",
-            "background_color": "#ffffff",
-            "accent_color": "#3a21ce",
-            "banner_size": "small",
-            "border": "off",
-            "border_radius": 10,
-            "drop_shadow": 10,
-            "row_padding": 0,
-            "tagline": ""
-          }
-        },
         "f0b2026d-8437-4f97-bb51-ea246875dbcd": {
-          "type": "shopify:\/\/apps\/virtue-uk-giving-app\/blocks\/customer-donations\/79182888-a717-4890-a7d5-e2f1b496a399",
-          "disabled": true,
-          "settings": {
-            "virtue_theme": "custom",
-            "text_color": "#1d1d1d",
-            "background_color": "#ffffff",
-            "accent_color": "#3a21ce",
-            "banner_size": "small",
-            "border": "on",
-            "border_radius": 10,
-            "drop_shadow": 10,
-            "row_padding": 0,
-            "tagline": ""
-          }
-        },
-        "7bccbc06-5cad-4148-aaa9-f2cfddea6da8": {
-          "type": "shopify:\/\/apps\/pledger-post-p-development\/blocks\/customer-donations\/cffd5874-d3d3-4961-9f67-67c84e13640b",
+          "type": "shopify:\/\/apps\/virtue-charity-donations\/blocks\/customer-donations\/79182888-a717-4890-a7d5-e2f1b496a399",
           "disabled": true,
           "settings": {
             "virtue_theme": "custom",
@@ -95,12 +43,13 @@
           }
         },
         "bbb4f9a5-6ded-46b4-a32f-61f12831c6c9": {
-          "type": "shopify:\/\/apps\/virtue-uk-giving-app\/blocks\/customer-donations\/79182888-a717-4890-a7d5-e2f1b496a399",
+          "type": "shopify:\/\/apps\/virtue-charity-donations\/blocks\/customer-donations\/79182888-a717-4890-a7d5-e2f1b496a399",
+          "disabled": true,
           "settings": {
             "virtue_theme": "custom",
-            "text_color": "#1D1D1D",
+            "text_color": "#1d1d1d",
             "background_color": "#ffffff",
-            "accent_color": "#3A21CE",
+            "accent_color": "#3a21ce",
             "banner_size": "small",
             "border": "off",
             "border_radius": 10,
@@ -113,9 +62,7 @@
       "block_order": [
         "subtotal",
         "buttons",
-        "edeab698-bd10-46d3-8504-36c0e81272dc",
         "f0b2026d-8437-4f97-bb51-ea246875dbcd",
-        "7bccbc06-5cad-4148-aaa9-f2cfddea6da8",
         "bbb4f9a5-6ded-46b4-a32f-61f12831c6c9"
       ],
       "settings": {
