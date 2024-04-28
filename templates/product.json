@@ -73,28 +73,13 @@
           "settings": {
           }
         },
-        "pledger_post_p_development_cart_donations_iVNxVa": {
+        "pledger_post_p_development_cart_donations_4DHViP": {
           "type": "shopify:\/\/apps\/pledger-post-p-development\/blocks\/cart-donations\/cffd5874-d3d3-4961-9f67-67c84e13640b",
           "settings": {
             "virtue_theme": "custom",
             "text_color": "#1d1d1d",
             "background_color": "#ffffff",
             "accent_color": "#3a21ce",
-            "banner_size": "small",
-            "border": "on",
-            "border_radius": 10,
-            "drop_shadow": 10,
-            "row_padding": 0,
-            "tagline": ""
-          }
-        },
-        "pledger_post_p_development_cart_donations_4DHViP": {
-          "type": "shopify:\/\/apps\/pledger-post-p-development\/blocks\/cart-donations\/cffd5874-d3d3-4961-9f67-67c84e13640b",
-          "settings": {
-            "virtue_theme": "custom",
-            "text_color": "#1D1D1D",
-            "background_color": "#ffffff",
-            "accent_color": "#3A21CE",
             "banner_size": "small",
             "border": "on",
             "border_radius": 10,
@@ -115,7 +100,6 @@
         "buy_buttons",
         "description",
         "share",
-        "pledger_post_p_development_cart_donations_iVNxVa",
         "pledger_post_p_development_cart_donations_4DHViP"
       ],
       "custom_css": [
