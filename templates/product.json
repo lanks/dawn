@@ -94,8 +94,8 @@
           "settings": {
             "virtue_theme": "green",
             "text_color": "#1D1D1D",
-            "background_color": "#ffffff",
-            "accent_color": "#3A21CE",
+            "background_color": "#def8de",
+            "accent_color": "#0d8b02",
             "banner_size": "small",
             "border": "on",
             "border_radius": 10,
@@ -120,7 +120,7 @@
         "virtue_charity_donations_cart_donations_3TX7Bt"
       ],
       "custom_css": [
-        "#pledger-banner-content {background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0422\/7468\/5094\/t\/2\/assets\/giraffes-resized.png?v=1712199525\"); background-size: contain; background-repeat: no-repeat; background-position: right;}"
+
       ],
       "settings": {
         "enable_sticky_info": true,
