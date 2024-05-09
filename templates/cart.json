@@ -31,8 +31,8 @@
           "settings": {
             "virtue_theme": "custom",
             "text_color": "#1d1d1d",
-            "background_color": "#ffffff",
-            "accent_color": "#3a21ce",
+            "background_color": "#def8de",
+            "accent_color": "#0d8b02",
             "banner_size": "small",
             "border": "on",
             "border_radius": 10,
