@@ -91,9 +91,10 @@
         },
         "virtue_charity_donations_cart_donations_3TX7Bt": {
           "type": "shopify:\/\/apps\/virtue-charity-donations\/blocks\/cart-donations\/79182888-a717-4890-a7d5-e2f1b496a399",
+          "disabled": true,
           "settings": {
             "virtue_theme": "green",
-            "text_color": "#1D1D1D",
+            "text_color": "#1d1d1d",
             "background_color": "#def8de",
             "accent_color": "#0d8b02",
             "banner_size": "small",
