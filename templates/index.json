@@ -50,6 +50,7 @@
         },
         "93ee3853-d0f1-425a-b073-a7fc2cdec21b": {
           "type": "shopify:\/\/apps\/pledger-post-p-development\/blocks\/impact-calculator\/cffd5874-d3d3-4961-9f67-67c84e13640b",
+          "disabled": true,
           "settings": {
             "virtue_theme": "custom",
             "font_color": "#000000",
