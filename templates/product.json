@@ -37,26 +37,26 @@
           }
         },
         "klip_coupons_klip_app_section_product_YBFJnk": {
-          "type": "shopify:\/\/apps\/klip-coupons\/blocks\/klip-app-section-product\/df38e221-ede4-4ad4-b47d-56524361a5be",
+          "type": "shopify://apps/klip-coupons/blocks/klip-app-section-product/df38e221-ede4-4ad4-b47d-56524361a5be",
           "settings": {
             "margin_top": 10,
             "margin_bottom": 10
           }
         },
         "staging_cart_donations_X7MAaR": {
-          "type": "shopify:\/\/apps\/staging\/blocks\/cart-donations\/cffd5874-d3d3-4961-9f67-67c84e13640b",
+          "type": "shopify://apps/staging/blocks/cart-donations/cffd5874-d3d3-4961-9f67-67c84e13640b",
           "settings": {
             "virtue_theme": "custom",
-            "text_color": "#1D1D1D",
+            "text_color": "#1d1d1d",
             "background_color": "#ffffff",
-            "accent_color": "#3A21CE",
+            "accent_color": "#3a21ce",
             "banner_size": "small",
             "border": "on",
             "border_radius": 10,
             "drop_shadow": 10,
             "row_padding": 0,
             "tagline": "",
-            "calculate_percentage": "percentage"
+            "calculate_percentage": "calculate"
           }
         },
         "variant_picker": {
@@ -71,7 +71,7 @@
           }
         },
         "cd9a7a89-8d89-41ab-a20b-bcc0af32cd7d": {
-          "type": "shopify:\/\/apps\/virtue-charity-donations\/blocks\/customer-donations\/79182888-a717-4890-a7d5-e2f1b496a399",
+          "type": "shopify://apps/virtue-charity-donations/blocks/customer-donations/79182888-a717-4890-a7d5-e2f1b496a399",
           "disabled": true,
           "settings": {
             "virtue_theme": "custom",
@@ -106,7 +106,7 @@
           }
         },
         "pledger_post_p_development_cart_donations_4DHViP": {
-          "type": "shopify:\/\/apps\/staging\/blocks\/cart-donations\/cffd5874-d3d3-4961-9f67-67c84e13640b",
+          "type": "shopify://apps/staging/blocks/cart-donations/cffd5874-d3d3-4961-9f67-67c84e13640b",
           "disabled": true,
           "settings": {
             "virtue_theme": "custom",
@@ -123,7 +123,7 @@
           }
         },
         "virtue_charity_donations_cart_donations_3TX7Bt": {
-          "type": "shopify:\/\/apps\/virtue-charity-donations\/blocks\/cart-donations\/79182888-a717-4890-a7d5-e2f1b496a399",
+          "type": "shopify://apps/virtue-charity-donations/blocks/cart-donations/79182888-a717-4890-a7d5-e2f1b496a399",
           "disabled": true,
           "settings": {
             "virtue_theme": "green",
@@ -135,16 +135,17 @@
             "border_radius": 10,
             "drop_shadow": 10,
             "row_padding": 0,
-            "tagline": ""
+            "tagline": "",
+            "calculate_percentage": "calculate"
           }
         },
         "product_blocks_collapsible_content_JEHmqw": {
-          "type": "shopify:\/\/apps\/product-blocks\/blocks\/collapsible_content\/23b2354d-8d0d-4a5c-aa7b-40e41d9b4d84",
+          "type": "shopify://apps/product-blocks/blocks/collapsible_content/23b2354d-8d0d-4a5c-aa7b-40e41d9b4d84",
           "settings": {
             "show_open": false,
             "icon_style": "plus_minus_square",
             "title": "Extra product information",
-            "text": "<p>Lorem ipsum dolor.<\/p>",
+            "text": "<p>Lorem ipsum dolor.</p>",
             "page": "",
             "liquid": "",
             "heading_size": 70,
@@ -162,7 +163,7 @@
           }
         },
         "product_blocks_variant_descriptions_kxBheL": {
-          "type": "shopify:\/\/apps\/product-blocks\/blocks\/variant-descriptions\/23b2354d-8d0d-4a5c-aa7b-40e41d9b4d84",
+          "type": "shopify://apps/product-blocks/blocks/variant-descriptions/23b2354d-8d0d-4a5c-aa7b-40e41d9b4d84",
           "settings": {
             "metafield_namespace": "design_packs",
             "metafield_key": "description",
@@ -179,7 +180,7 @@
           }
         },
         "downpay_downpay_form_D6C8xf": {
-          "type": "shopify:\/\/apps\/downpay\/blocks\/downpay-form\/da700d84-7ed1-410a-a8b5-5cb99a33758a",
+          "type": "shopify://apps/downpay/blocks/downpay-form/da700d84-7ed1-410a-a8b5-5cb99a33758a",
           "settings": {
             "show_border": true,
             "section_header": "",
