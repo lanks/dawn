@@ -56,7 +56,7 @@
             "drop_shadow": 10,
             "row_padding": 0,
             "tagline": "",
-            "calculate_percentage": "calculate"
+            "calculate_percentage": "percentage"
           }
         },
         "variant_picker": {
