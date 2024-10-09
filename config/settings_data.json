@@ -68,13 +68,13 @@
     ],
     "blocks": {
       "4450774348159742141": {
-        "type": "shopify:\/\/apps\/klip-coupons\/blocks\/klip-app\/df38e221-ede4-4ad4-b47d-56524361a5be",
+        "type": "shopify://apps/klip-coupons/blocks/klip-app/df38e221-ede4-4ad4-b47d-56524361a5be",
         "disabled": false,
         "settings": {
         }
       },
       "13856562633712291205": {
-        "type": "shopify:\/\/apps\/downpay\/blocks\/downpay-cart-embed\/da700d84-7ed1-410a-a8b5-5cb99a33758a",
+        "type": "shopify://apps/downpay/blocks/downpay-cart-embed/da700d84-7ed1-410a-a8b5-5cb99a33758a",
         "disabled": false,
         "settings": {
           "show_currency_code": true,
@@ -83,6 +83,12 @@
           "insert_area": "",
           "insert_position": "afterend",
           "custom_css": ""
+        }
+      },
+      "15599951759576395258": {
+        "type": "shopify://apps/mida-replay-heatmaps/blocks/mida_recorder/e4c350c5-eabf-426d-8014-47ef50412bd0",
+        "disabled": false,
+        "settings": {
         }
       }
     }
