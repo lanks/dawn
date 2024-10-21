@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -195,6 +195,11 @@
             "add_to_cart_button_label": "",
             "custom_css": ""
           }
+        },
+        "easy_bundles_app_block_mix_and_match_bundle_KrXCGr": {
+          "type": "shopify://apps/easy-bundles/blocks/app-block-mixAndMatchBundle/05b1325c-6303-4da5-8e2f-b13ab2a50e1a",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -214,7 +219,8 @@
         "virtue_charity_donations_cart_donations_3TX7Bt",
         "product_blocks_collapsible_content_JEHmqw",
         "product_blocks_variant_descriptions_kxBheL",
-        "downpay_downpay_form_D6C8xf"
+        "downpay_downpay_form_D6C8xf",
+        "easy_bundles_app_block_mix_and_match_bundle_KrXCGr"
       ],
       "custom_css": [
 
