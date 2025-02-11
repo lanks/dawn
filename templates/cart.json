@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "e98cb12b-7bf2-4dcd-9a55-4c4e3f32913f": {
@@ -18,17 +27,14 @@
       "blocks": {
         "subtotal": {
           "type": "subtotal",
-          "settings": {
-          }
+          "settings": {}
         },
         "buttons": {
           "type": "buttons",
-          "settings": {
-          }
+          "settings": {}
         },
         "f0b2026d-8437-4f97-bb51-ea246875dbcd": {
-          "type": "shopify:\/\/apps\/virtue-charity-donations\/blocks\/customer-donations\/79182888-a717-4890-a7d5-e2f1b496a399",
-          "disabled": true,
+          "type": "shopify://apps/virtue-charity-donations/blocks/customer-donations/79182888-a717-4890-a7d5-e2f1b496a399",
           "settings": {
             "virtue_theme": "custom",
             "text_color": "#1d1d1d",
@@ -46,7 +52,7 @@
           }
         },
         "bbb4f9a5-6ded-46b4-a32f-61f12831c6c9": {
-          "type": "shopify:\/\/apps\/virtue-charity-donations\/blocks\/customer-donations\/79182888-a717-4890-a7d5-e2f1b496a399",
+          "type": "shopify://apps/virtue-charity-donations/blocks/customer-donations/79182888-a717-4890-a7d5-e2f1b496a399",
           "disabled": true,
           "settings": {
             "virtue_theme": "custom",

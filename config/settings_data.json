@@ -25,8 +25,7 @@
         "block_order": [
           "announcement-bar-0"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "header": {
         "type": "header",
@@ -63,45 +62,39 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "4450774348159742141": {
         "type": "shopify://apps/klip-coupons/blocks/klip-app/df38e221-ede4-4ad4-b47d-56524361a5be",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "13856562633712291205": {
         "type": "shopify://apps/downpay/blocks/downpay-cart-embed/da700d84-7ed1-410a-a8b5-5cb99a33758a",
         "disabled": false,
         "settings": {
           "show_currency_code": true,
-          "amount_due_today_label": "",
-          "amount_due_later_label": "",
           "insert_area": "",
           "insert_position": "afterend",
-          "custom_css": ""
+          "custom_css": "",
+          "amount_due_today_label": "",
+          "amount_due_later_label": ""
         }
       },
       "15599951759576395258": {
         "type": "shopify://apps/mida-replay-heatmaps/blocks/mida_recorder/e4c350c5-eabf-426d-8014-47ef50412bd0",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "7313114205116804392": {
         "type": "shopify://apps/propel-replays-surveys/blocks/app-embed/64fbaaa3-2d4a-49f3-aba7-86e92e44999f",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "11348531219507317188": {
         "type": "shopify://apps/easy-bundles/blocks/app-embed/05b1325c-6303-4da5-8e2f-b13ab2a50e1a",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       }
     }
   }
