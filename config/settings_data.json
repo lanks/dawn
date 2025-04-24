@@ -119,8 +119,9 @@
           "floating_button_position": "center",
           "cta_text": "Shop and Support",
           "icon": "heart",
-          "button_text_color": "#1D1D1D",
-          "button_background_color": "#FFFFFF"
+          "accent_color": "#9D572C",
+          "button_text_color": "#1d1d1d",
+          "button_background_color": "#ffffff"
         }
       }
     }
