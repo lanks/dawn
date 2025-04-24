@@ -95,6 +95,20 @@
         "type": "shopify://apps/easy-bundles/blocks/app-embed/05b1325c-6303-4da5-8e2f-b13ab2a50e1a",
         "disabled": false,
         "settings": {}
+      },
+      "9986514741777452858": {
+        "type": "shopify://apps/virtue-charity-donations/blocks/app-embed/79182888-a717-4890-a7d5-e2f1b496a399",
+        "disabled": false,
+        "settings": {
+          "floating_button_enabled": true,
+          "floating_button_side": "bottom",
+          "floating_button_position": "center",
+          "cta_text": "Shop and Support",
+          "icon": "apple",
+          "button_accent_color": "#3A21CE",
+          "button_text_color": "#1D1D1D",
+          "button_background_color": "#FFFFFF"
+        }
       }
     }
   }
