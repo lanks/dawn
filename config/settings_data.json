@@ -96,23 +96,9 @@
         "disabled": false,
         "settings": {}
       },
-      "9986514741777452858": {
-        "type": "shopify://apps/virtue-charity-donations/blocks/app-embed/79182888-a717-4890-a7d5-e2f1b496a399",
-        "disabled": true,
-        "settings": {
-          "floating_button_enabled": true,
-          "floating_button_side": "bottom",
-          "floating_button_position": "center",
-          "cta_text": "Shop and Support",
-          "icon": "apple",
-          "button_accent_color": "#3A21CE",
-          "button_text_color": "#1D1D1D",
-          "button_background_color": "#FFFFFF"
-        }
-      },
       "706315364717123156": {
         "type": "shopify://apps/staging/blocks/app-embed/cffd5874-d3d3-4961-9f67-67c84e13640b",
-        "disabled": false,
+        "disabled": true,
         "settings": {
           "floating_button_enabled": true,
           "floating_button_side": "bottom",
@@ -120,6 +106,20 @@
           "cta_text": "Shop and Support",
           "icon": "heart",
           "accent_color": "#9D572C",
+          "button_text_color": "#1d1d1d",
+          "button_background_color": "#ffffff"
+        }
+      },
+      "9986514741777452858": {
+        "type": "shopify://apps/virtue-charity-donations/blocks/app-embed/79182888-a717-4890-a7d5-e2f1b496a399",
+        "disabled": false,
+        "settings": {
+          "floating_button_enabled": true,
+          "floating_button_side": "bottom",
+          "floating_button_position": "center",
+          "cta_text": "Shop and Support",
+          "icon": "apple",
+          "button_accent_color": "#3a21ce",
           "button_text_color": "#1d1d1d",
           "button_background_color": "#ffffff"
         }
