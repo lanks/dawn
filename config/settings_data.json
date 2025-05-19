@@ -119,7 +119,6 @@
           "floating_button_position": "center",
           "cta_text": "Shop and Support",
           "icon": "apple",
-          "button_accent_color": "#3a21ce",
           "button_text_color": "#1d1d1d",
           "button_background_color": "#ffffff"
         }

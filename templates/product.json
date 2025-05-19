@@ -21,8 +21,7 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "subtitle": {
           "type": "text",
@@ -33,8 +32,7 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "klip_coupons_klip_app_section_product_YBFJnk": {
           "type": "shopify://apps/klip-coupons/blocks/klip-app-section-product/df38e221-ede4-4ad4-b47d-56524361a5be",
@@ -67,12 +65,10 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "cd9a7a89-8d89-41ab-a20b-bcc0af32cd7d": {
           "type": "shopify://apps/virtue-charity-donations/blocks/customer-donations/79182888-a717-4890-a7d5-e2f1b496a399",
-          "disabled": true,
           "settings": {
             "virtue_theme": "custom",
             "text_color": "#1d1d1d",
@@ -97,13 +93,11 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "share": {
           "type": "share",
-          "settings": {
-          }
+          "settings": {}
         },
         "pledger_post_p_development_cart_donations_4DHViP": {
           "type": "shopify://apps/staging/blocks/cart-donations/cffd5874-d3d3-4961-9f67-67c84e13640b",
@@ -182,24 +176,25 @@
         "downpay_downpay_form_D6C8xf": {
           "type": "shopify://apps/downpay/blocks/downpay-form/da700d84-7ed1-410a-a8b5-5cb99a33758a",
           "settings": {
+            "default_to_pay_in_full": false,
+            "show_payment_methods": false,
+            "show_deposit_amount": true,
             "show_border": true,
+            "show_help_text2": "deposit",
+            "show_release_date2": "never",
+            "select_style": "radio",
+            "custom_css": "",
             "section_header": "",
             "deposit_option_label": "",
-            "show_deposit_amount": true,
             "full_pay_option_label": "",
-            "show_payment_methods": false,
-            "show_help_text2": "deposit",
             "deposit_help_text": "",
-            "show_release_date2": "never",
             "release_date_text": "",
-            "add_to_cart_button_label": "",
-            "custom_css": ""
+            "add_to_cart_button_label": ""
           }
         },
         "easy_bundles_app_block_mix_and_match_bundle_KrXCGr": {
-          "type": "shopify://apps/easy-bundles/blocks/app-block-mixAndMatchBundle/05b1325c-6303-4da5-8e2f-b13ab2a50e1a",
-          "settings": {
-          }
+          "type": "shopify://apps/eb-easy-bundle-builder/blocks/app-block-mixAndMatchBundle/05b1325c-6303-4da5-8e2f-b13ab2a50e1a",
+          "settings": {}
         }
       },
       "block_order": [
@@ -222,9 +217,7 @@
         "downpay_downpay_form_D6C8xf",
         "easy_bundles_app_block_mix_and_match_bundle_KrXCGr"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "enable_sticky_info": true,
         "enable_video_looping": false
