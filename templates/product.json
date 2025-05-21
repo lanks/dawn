@@ -34,6 +34,24 @@
           "type": "price",
           "settings": {}
         },
+        "virtue_charity_donations_customer_donations_nxELWh": {
+          "type": "shopify://apps/virtue-charity-donations/blocks/customer-donations/79182888-a717-4890-a7d5-e2f1b496a399",
+          "settings": {
+            "virtue_theme": "custom",
+            "text_color": "#1D1D1D",
+            "background_color": "#ffffff",
+            "accent_color": "#3A21CE",
+            "banner_size": "small",
+            "border": "on",
+            "border_radius": 10,
+            "drop_shadow": 10,
+            "row_padding": 0,
+            "button_background_color": "",
+            "button_color": "",
+            "tagline": "",
+            "custom_option": "on"
+          }
+        },
         "klip_coupons_klip_app_section_product_YBFJnk": {
           "type": "shopify://apps/klip-coupons/blocks/klip-app-section-product/df38e221-ede4-4ad4-b47d-56524361a5be",
           "settings": {
@@ -202,6 +220,7 @@
         "title",
         "subtitle",
         "price",
+        "virtue_charity_donations_customer_donations_nxELWh",
         "klip_coupons_klip_app_section_product_YBFJnk",
         "staging_cart_donations_X7MAaR",
         "variant_picker",
