@@ -1,17 +1,26 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "1663122340baeba05f": {
       "type": "custom-liquid",
       "disabled": true,
       "settings": {
-        "custom_liquid": "<div id='pledger-impact' data-widget-id='impact_calculator'><\/div>"
+        "custom_liquid": "<div id='pledger-impact' data-widget-id='impact_calculator'></div>"
       }
     },
     "166113875414cd1055": {
       "type": "apps",
       "blocks": {
         "45dc02fd-6021-4db1-9ed3-0b66bbda586e": {
-          "type": "shopify:\/\/apps\/virtue-charity-donations\/blocks\/customer-donations\/79182888-a717-4890-a7d5-e2f1b496a399",
+          "type": "shopify://apps/virtue-charity-donations/blocks/customer-donations/79182888-a717-4890-a7d5-e2f1b496a399",
           "disabled": true,
           "settings": {
             "virtue_theme": "custom",
@@ -30,7 +39,7 @@
           }
         },
         "bb7cc7a1-d598-49e0-95eb-6fddaab971e3": {
-          "type": "shopify:\/\/apps\/pledger-post-p-development\/blocks\/customer-donations\/cffd5874-d3d3-4961-9f67-67c84e13640b",
+          "type": "shopify://apps/staging/blocks/customer-donations/cffd5874-d3d3-4961-9f67-67c84e13640b",
           "disabled": true,
           "settings": {
             "virtue_theme": "custom",
@@ -49,7 +58,7 @@
           }
         },
         "93ee3853-d0f1-425a-b073-a7fc2cdec21b": {
-          "type": "shopify:\/\/apps\/pledger-post-p-development\/blocks\/impact-calculator\/cffd5874-d3d3-4961-9f67-67c84e13640b",
+          "type": "shopify://apps/staging/blocks/impact-calculator/cffd5874-d3d3-4961-9f67-67c84e13640b",
           "disabled": true,
           "settings": {
             "virtue_theme": "custom",
@@ -87,7 +96,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -140,7 +149,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>"
           }
         },
         "button": {
@@ -165,7 +174,14 @@
     "d3ad3406-4eeb-4e2d-a33a-a58f275036db": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div id='pledger-impact' data-widget-id='impact_calculator'><\/div>"
+        "custom_liquid": "<div id='pledger-impact' data-widget-id='impact_calculator'></div>"
+      }
+    },
+    "custom_liquid_h9nwY7": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<script src=\"https://cdn.virtueimpact.com/widgets/4079/impact-calculator-widget.js?insert=manual\"></script>"
       }
     }
   },
@@ -175,6 +191,7 @@
     "image_banner",
     "featured_products",
     "image_text",
-    "d3ad3406-4eeb-4e2d-a33a-a58f275036db"
+    "d3ad3406-4eeb-4e2d-a33a-a58f275036db",
+    "custom_liquid_h9nwY7"
   ]
 }
