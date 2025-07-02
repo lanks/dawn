@@ -183,6 +183,32 @@
       "settings": {
         "custom_liquid": "<script src=\"https://cdn.virtueimpact.com/widgets/4079/impact-calculator-widget.js?insert=manual\"></script>"
       }
+    },
+    "1751423804e4009287": {
+      "type": "apps",
+      "blocks": {
+        "staging_impact_calculator_AEVbhH": {
+          "type": "shopify://apps/staging/blocks/impact-calculator/cffd5874-d3d3-4961-9f67-67c84e13640b",
+          "settings": {
+            "virtue_theme": "custom",
+            "font_color": "#1D1D1D",
+            "background_color": "#ffffff",
+            "accent_color": "#3A21CE",
+            "banner_size": "small",
+            "border": "on",
+            "border_radius": 10,
+            "drop_shadow": 10,
+            "row_padding": 0,
+            "tagline": ""
+          }
+        }
+      },
+      "block_order": [
+        "staging_impact_calculator_AEVbhH"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -192,6 +218,7 @@
     "featured_products",
     "image_text",
     "d3ad3406-4eeb-4e2d-a33a-a58f275036db",
-    "custom_liquid_h9nwY7"
+    "custom_liquid_h9nwY7",
+    "1751423804e4009287"
   ]
 }
