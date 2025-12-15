@@ -36,11 +36,13 @@
         },
         "virtue_charity_donations_customer_donations_nxELWh": {
           "type": "shopify://apps/virtue-charity-donations/blocks/customer-donations/79182888-a717-4890-a7d5-e2f1b496a399",
+          "disabled": true,
           "settings": {
             "virtue_theme": "custom",
-            "text_color": "#1D1D1D",
+            "collapsable_widget": "off",
+            "text_color": "#1d1d1d",
             "background_color": "#ffffff",
-            "accent_color": "#3A21CE",
+            "accent_color": "#3a21ce",
             "banner_size": "small",
             "border": "on",
             "border_radius": 10,
@@ -87,8 +89,10 @@
         },
         "cd9a7a89-8d89-41ab-a20b-bcc0af32cd7d": {
           "type": "shopify://apps/virtue-charity-donations/blocks/customer-donations/79182888-a717-4890-a7d5-e2f1b496a399",
+          "disabled": true,
           "settings": {
             "virtue_theme": "custom",
+            "collapsable_widget": "off",
             "text_color": "#1d1d1d",
             "background_color": "#ffffff",
             "accent_color": "#3a21ce",
@@ -139,6 +143,7 @@
           "disabled": true,
           "settings": {
             "virtue_theme": "green",
+            "collapsable_widget": "off",
             "text_color": "#1d1d1d",
             "background_color": "#def8de",
             "accent_color": "#0d8b02",
