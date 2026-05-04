@@ -37,6 +37,7 @@
           "type": "shopify://apps/virtue-charity-donations/blocks/customer-donations/79182888-a717-4890-a7d5-e2f1b496a399",
           "settings": {
             "virtue_theme": "custom",
+            "collapsable_widget": "off",
             "text_color": "#1d1d1d",
             "background_color": "#def8de",
             "accent_color": "#0d8b02",
@@ -45,8 +46,8 @@
             "border_radius": 10,
             "drop_shadow": 10,
             "row_padding": 0,
-            "button_background_color": "",
-            "button_color": "",
+            "button_background_color": "#1d1d1d",
+            "button_color": "#def8de",
             "tagline": "",
             "custom_option": "on"
           }
@@ -56,6 +57,7 @@
           "disabled": true,
           "settings": {
             "virtue_theme": "custom",
+            "collapsable_widget": "off",
             "text_color": "#1d1d1d",
             "background_color": "#ffffff",
             "accent_color": "#3a21ce",
