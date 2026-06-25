@@ -25,6 +25,26 @@
     "cart-footer": {
       "type": "main-cart-footer",
       "blocks": {
+        "staging_customer_donations_jxUHhR": {
+          "type": "shopify://apps/staging/blocks/customer-donations/cffd5874-d3d3-4961-9f67-67c84e13640b",
+          "settings": {
+            "virtue_theme": "custom",
+            "widget_variant": "expanded",
+            "collapsable_widget": "off",
+            "text_color": "#1D1D1D",
+            "background_color": "#ffffff",
+            "accent_color": "#3A21CE",
+            "banner_size": "small",
+            "border": "on",
+            "border_radius": 10,
+            "drop_shadow": 10,
+            "row_padding": 0,
+            "button_background_color": "",
+            "button_color": "",
+            "tagline": "",
+            "custom_option": "on"
+          }
+        },
         "subtotal": {
           "type": "subtotal",
           "settings": {}
@@ -35,6 +55,7 @@
         },
         "f0b2026d-8437-4f97-bb51-ea246875dbcd": {
           "type": "shopify://apps/virtue-charity-donations/blocks/customer-donations/79182888-a717-4890-a7d5-e2f1b496a399",
+          "disabled": true,
           "settings": {
             "virtue_theme": "custom",
             "collapsable_widget": "off",
@@ -74,6 +95,7 @@
         }
       },
       "block_order": [
+        "staging_customer_donations_jxUHhR",
         "subtotal",
         "buttons",
         "f0b2026d-8437-4f97-bb51-ea246875dbcd",
