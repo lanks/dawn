@@ -25,6 +25,14 @@
     "cart-footer": {
       "type": "main-cart-footer",
       "blocks": {
+        "subtotal": {
+          "type": "subtotal",
+          "settings": {}
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {}
+        },
         "staging_customer_donations_jxUHhR": {
           "type": "shopify://apps/staging/blocks/customer-donations/cffd5874-d3d3-4961-9f67-67c84e13640b",
           "settings": {
@@ -44,14 +52,6 @@
             "tagline": "",
             "custom_option": "on"
           }
-        },
-        "subtotal": {
-          "type": "subtotal",
-          "settings": {}
-        },
-        "buttons": {
-          "type": "buttons",
-          "settings": {}
         },
         "f0b2026d-8437-4f97-bb51-ea246875dbcd": {
           "type": "shopify://apps/virtue-charity-donations/blocks/customer-donations/79182888-a717-4890-a7d5-e2f1b496a399",
@@ -95,9 +95,9 @@
         }
       },
       "block_order": [
-        "staging_customer_donations_jxUHhR",
         "subtotal",
         "buttons",
+        "staging_customer_donations_jxUHhR",
         "f0b2026d-8437-4f97-bb51-ea246875dbcd",
         "bbb4f9a5-6ded-46b4-a32f-61f12831c6c9"
       ],
